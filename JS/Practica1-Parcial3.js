@@ -17,13 +17,13 @@ $p.style.color = "White";
 $p.style.backgroundColor = "Gray";
 
 let $ol = document.querySelector("ol");
-$ol.innerHTML = "<li>Practicar artes marciales</li><li>Leer sobre historia de Mexico y universal</li><li>Escuchar musica</li><li>Dormir</li><li>Meditar</li>"
+$ol.innerHTML = "<li>Practicar artes marciales</li><li>Leer sobre historia de Mexico y universal</li><li>Escuchar musica</li><li>Dormir</li><li>Meditar</li>";
 $ol.style.fontFamily= "Arial";
 $ol.style.color = "Cyan";
 $ol.style.backgroundColor = "Black";
 
 let $ul = document.querySelector("ul");
-$ul.innerHTML = "<li>Correo: edgarpinto010203@gmail.com</li><li>Telefono: 5562013401</li>"
+$ul.innerHTML = "<li>Correo: edgarpinto010203@gmail.com</li><li>Telefono: 5562013401</li>";
 $ul.style.fontFamily= "Arial";
 $ul.style.color = "Yellow";
 $ul.style.backgroundColor = "Black";
