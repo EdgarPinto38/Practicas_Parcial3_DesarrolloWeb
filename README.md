@@ -5,6 +5,6 @@
 ## JS
 - [Práctica 1 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica1-Parcial3.js)
 - [Práctica 2 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica2-Parcial3.js)
-- [Práctica 3 Parcial 3]()
-- [Práctica 4 Parcial 3]()
+- [Práctica 3 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica3-Parcial3.js)
+- [Práctica 4 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica4-Parcial3.js)
 
