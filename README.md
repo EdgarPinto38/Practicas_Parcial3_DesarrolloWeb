@@ -9,4 +9,5 @@
 - [Práctica 4 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica4-Parcial3.js)
 - [Práctica 5 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica5-Parcial3.js)
 - [Práctica 6 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica6-Parcial3.js)
+- [Práctica 7 Parcial 3](https://github.com/EdgarPinto38/Practicas_Parcial3_DesarrolloWeb/blob/main/JS/Practica7-Parcial3.js)
 
