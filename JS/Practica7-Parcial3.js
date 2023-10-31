@@ -1,5 +1,7 @@
 export function getCharacters(done) {
+    let $btnInfo = document.querySelector("#btn-mostrar");
 
+    
     const results = fetch("https://rickandmortyapi.com/api/character");
 
     results
@@ -7,23 +9,34 @@ export function getCharacters(done) {
         .then(data => {
             done(data)
         });
+
+
+        $btnInfo.addEventListener("click" ,(e)=> {
+
+            getCharacters(data => {
+                data.results.forEach(personaje => {
+            
+                    const article = document.createRange().createContextualFragment(
+                        `
+                        <article>
+                            <div class="image-container">
+                                <img src="${personaje.image}" alt="Personaje" />
+                            </div>
+                            <h2>${personaje.name}</h2>
+                            <span>${personaje.status}</span>
+                        </article>
+                        `
+                    );
+                    const main = document.querySelector("main");
+                    main.append(article);
+                });
+            });
+            
+        
+        
+        
+        });
+        
+
 }
 
-getCharacters(data => {
-    data.results.forEach(personaje => {
-
-        const article = document.createRange().createContextualFragment(
-            `
-            <article>
-                <div class="image-container">
-                    <img src="${personaje.image}" alt="Personaje" />
-                </div>
-                <h2>${personaje.name}</h2>
-                <span>${personaje.status}</span>
-            </article>
-            `
-        );
-        const main = document.querySelector("main");
-        main.append(article);
-    });
-});
